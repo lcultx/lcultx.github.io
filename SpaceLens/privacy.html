@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceLens 隐私政策</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f5f6f8;
+        --card: #ffffff;
+        --text: #16202a;
+        --muted: #55606d;
+        --accent: #0a84ff;
+        --line: #d9dee5;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", sans-serif;
+        background: linear-gradient(180deg, #eef4ff 0%, var(--bg) 220px);
+        color: var(--text);
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        padding: 28px;
+        box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+      }
+
+      h1,
+      h2 {
+        margin: 0 0 16px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      h2 {
+        font-size: 20px;
+        margin-top: 28px;
+      }
+
+      p,
+      li {
+        line-height: 1.7;
+        color: var(--muted);
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .eyebrow {
+        display: inline-block;
+        margin-bottom: 12px;
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .footer {
+        margin-top: 28px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <span class="eyebrow">SpaceLens Privacy</span>
+        <h1>SpaceLens 隐私政策</h1>
+        <p>生效日期：2026 年 5 月 27 日</p>
+
+        <h2>我们收集什么</h2>
+        <p>SpaceLens 不收集、不上传、不出售任何个人数据。应用不包含用户跟踪、广告 SDK 或第三方分析服务。</p>
+
+        <h2>应用如何工作</h2>
+        <p>当用户主动发起扫描时，SpaceLens 会在本地读取文件系统元数据，例如文件名、路径、大小和目录层级，用于生成磁盘占用可视化结果。应用不会读取文件内容。</p>
+
+        <h2>权限说明</h2>
+        <ul>
+          <li>用户选择文件夹权限：用于扫描用户在系统选择器中主动授权的目录。</li>
+          <li>完整磁盘访问：可选权限，仅用于提升系统目录扫描的完整度；不授权时应用仍可正常扫描用户主动选择的文件夹。</li>
+        </ul>
+
+        <h2>数据存储</h2>
+        <p>所有扫描结果和界面状态仅保留在用户当前设备本地，不会发送到开发者服务器。</p>
+
+        <h2>联系我们</h2>
+        <p>如对本隐私政策有任何问题，请联系 <a href="mailto:your-email@example.com">your-email@example.com</a>。</p>
+
+        <p class="footer">Copyright 2026 Yangyang Xu. All rights reserved.</p>
+      </section>
+    </main>
+  </body>
+  </html>
